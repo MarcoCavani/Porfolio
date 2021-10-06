@@ -1,0 +1,165 @@
+* {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+* .wrapper {
+  width: 100%;
+}
+* body {
+  width: 100%;
+  background: #02096e;
+  background: -moz-linear-gradient(90deg, #02096e 0%, #060317 100%);
+  background: -webkit-linear-gradient(90deg, #02096e 0%, #060317 100%);
+  background: linear-gradient(90deg, #02096e 0%, #060317 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02096e",endColorstr="#060317",GradientType=1);
+}
+* header {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+* header .banner-left, * header .banner-right {
+  height: 100%;
+}
+* header .banner-left {
+  position: relative;
+}
+* header .banner-left .animation-star {
+  border-radius: 100%;
+  position: absolute;
+  background-color: #76f9fb;
+}
+* header .banner-left .animation-star:nth-child(1) {
+  width: 0.8rem;
+  height: 0.8rem;
+  top: 4rem;
+  left: 2rem;
+}
+* header .banner-left .animation-star:nth-child(2) {
+  top: 5rem;
+  left: 14rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+* header .banner-left .animation-star:nth-child(3) {
+  top: 9rem;
+  width: 0.3rem;
+  height: 0.3rem;
+  left: 8rem;
+}
+* header .banner-left .animation-star:nth-child(4) {
+  bottom: -1rem;
+  right: 15rem;
+  width: 0.75rem;
+  height: 0.75rem;
+}
+* header .banner-left .animation-star:nth-child(5) {
+  bottom: 0.5rem;
+  right: 17rem;
+  width: 0.5rem;
+  height: 0.5rem;
+}
+* header .banner-left .animation-star:nth-child(6) {
+  bottom: 2rem;
+  right: 13rem;
+  width: 0.25rem;
+  height: 0.25rem;
+}
+* header .banner-left .animation-star:nth-child(7) {
+  background-color: blue;
+  top: 4rem;
+}
+* header .banner-left #action {
+  margin: 5rem 0 0 0;
+}
+* header .banner-left #action h1 {
+  font-weight: 300;
+  color: #fff;
+  font-size: 3.7rem;
+  margin: 0 0 1rem 0;
+  text-transform: uppercase;
+}
+* header .banner-left #action h1 span {
+  color: #cc33cc;
+}
+* header .banner-left #action #Projects {
+  border: 1px solid #76f9fb;
+  color: #fff;
+  background-color: transparent;
+  margin: 0 0.5rem 0 0;
+  padding: 0.2rem;
+}
+* header img {
+  margin: 5rem 0 0 9rem;
+}
+* header button {
+  background: none;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to left, #76f9fb, #cc33cc);
+  color: #fff;
+  padding: 0.2rem;
+}
+* main h2 {
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 3.3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+* main h2::before {
+  content: url(../assets/images/ai-image.png);
+}
+* main .project-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+* main .project-container .project-card {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 2px;
+  padding: 1rem 0.8rem;
+  width: 15rem;
+  margin: 2rem;
+}
+* main .project-container .project-card span {
+  color: #cc33cc;
+}
+* main .project-container .project-card ul {
+  margin: 1rem;
+  font-size: 0.8rem;
+}
+* main .project-container .project-card ul li {
+  line-height: 1.5rem;
+  list-style: circle;
+}
+* main .project-container .project-card .text-allign-center {
+  text-align: center;
+}
+* main .project-container .project-card .text-allign-center button {
+  background: none;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to left, #76f9fb, #cc33cc);
+  color: #fff;
+  padding: 0.2rem;
+  margin: 0 auto;
+}
+* main .project-container .project-card .text-allign-center button::after {
+  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+  margin: 0 0 0 5px;
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */

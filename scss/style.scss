@@ -1,0 +1,232 @@
+* {
+
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+  box-sizing: border-box;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+
+  .wrapper{
+    width:100% ;
+  }
+  body{
+    width: 100%;
+    background: rgb(2,9,110);
+background: -moz-linear-gradient(90deg, rgba(2,9,110,1) 0%, rgba(6,3,23,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(2,9,110,1) 0%, rgba(6,3,23,1) 100%);
+background: linear-gradient(90deg, rgba(2,9,110,1) 0%, rgba(6,3,23,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#02096e",endColorstr="#060317",GradientType=1);
+
+  }
+  
+  header{
+    
+  
+    width: 100%;
+    display: flex;
+    
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+    .banner-left, .banner-right{
+
+      
+      height: 100%;
+      // border: 1px solid black;
+      
+
+    }
+    
+    .banner-left{
+     
+      position: relative;
+
+
+      .animation-star{
+
+    
+    
+    
+    border-radius: 100%;
+    position: absolute;
+    background-color: #76f9fb;
+    
+    
+    
+      }
+
+      .animation-star:nth-child(1){
+
+        width: .8rem;
+    height: .8rem;
+    top: 4rem;
+    left: 2rem;
+   
+
+      }
+
+      .animation-star:nth-child(2){
+
+        
+    top: 5rem;
+    left: 14rem;
+    width: .5rem;
+    height: .5rem;
+
+      }
+      .animation-star:nth-child(3){
+
+        
+        top: 9rem;
+        width: 0.3rem;
+        height: 0.3rem;
+        left: 8rem;
+      }
+      .animation-star:nth-child(4){
+        bottom: -1rem;
+        right: 15rem;
+        width: 0.75rem;
+        height: 0.75rem;
+        
+      }
+      .animation-star:nth-child(5){
+
+        bottom: .5rem;
+    right: 17rem;
+    width: 0.5rem;
+    height: 0.5rem;
+
+      }
+      .animation-star:nth-child(6){
+
+        bottom: 2rem;
+    right: 13rem;
+    width: 0.25rem;
+    height: 0.25rem;
+      }
+      .animation-star:nth-child(7){
+
+        background-color: blue;
+        top:4rem;
+      }
+
+
+      #action{
+      
+        margin: 5rem 0 0 0 ;
+        // border: 1px solid black;
+        h1{
+
+          font-weight: 300;
+          color: #fff;
+          font-size: 3.7rem;
+          margin: 0 0 1rem 0;
+          text-transform:uppercase;
+          span{
+            color: #cc33cc
+          }
+        }
+
+        #Projects{
+          border: 1px solid #76f9fb;
+          color: #fff;
+          background-color: transparent;
+          margin: 0 .5rem 0 0;
+          padding: .2rem;
+        }
+      }
+
+    }
+    img{
+
+      margin: 5rem 0 0 9rem;
+
+    }
+    button{
+      
+      background: none;
+      border: 2px solid;
+  border-image-slice: 1;
+  border-width: 2px;
+  border-image-source: linear-gradient(to left, #76f9fb, #cc33cc);
+  color: #fff;
+  padding: .2rem;
+    }
+  }
+
+main{
+
+  h2{font-weight: 300;
+    color: #ffffff;
+    font-size: 3.3rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  
+  }
+  h2::before{
+    content: url(../assets/images/ai-image.png);
+  }
+  .project-container{
+
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .project-card{
+
+      color: #ffffff;
+      border: 2px solid #ffffff;
+      border-radius: 2px;
+      padding: 1rem .8rem;
+      width: 15rem;
+      margin: 2rem;
+
+      span{
+
+        color: #cc33cc;
+
+      }
+
+      ul{
+        margin: 1rem;
+        font-size: .8rem;
+
+        li{
+          line-height: 1.5rem;
+          list-style: circle;
+        }
+      }
+
+      .text-allign-center{
+        text-align: center;
+        button{
+      
+          background: none;
+          border: 2px solid;
+          border-image-slice: 1;
+          border-width: 2px;
+          border-image-source: linear-gradient(to left, #76f9fb, #cc33cc);
+          color: #fff;
+          padding: .2rem;
+          margin: 0 auto;
+        }
+        button::after{
+          content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+  margin: 0 0 0 5px;
+        }
+       
+      }
+     
+    }
+
+  }
+
+
+
+}
+
+}
+
+/*# sourceMappingURL=style.scss.map */
